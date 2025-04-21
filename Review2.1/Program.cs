@@ -10,25 +10,26 @@ namespace Consoledocumation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Interest Calculation Program");
+             Console.WriteLine("Interest Calculation Program");
 
 
-            double Principle, Rate, Time, Interest;//input the equation
+                double Principle, Rate, Time, Interest; 
 
 
-            Console.WriteLine("What is princippal amount of the loan in dollars?");//principle 
-            Principle = Convert.ToInt32(Console.ReadLine());
+              Console.WriteLine("What is principal amount of the loan in dollars?"); 
+              Principle = Convert.ToDouble(Console.ReadLine());//string variable for the input principle
 
-            Console.WriteLine("What is interest rate?");//rate
-            Rate = Convert.ToInt32(Console.ReadLine());
+              Console.WriteLine("What is interest rate?");//string varialbe for the input rate
+              Rate = Convert.ToDouble(Console.ReadLine());
 
 
-            Console.WriteLine("Total interest of loan in years?");//time
-            Time = Convert.ToInt32(Console.ReadLine());
+              Console.WriteLine("Total interest of loan in years?");//string variable for the input time
+              Time = Convert.ToDouble(Console.ReadLine());
 
-            Interest = Principle * Rate * Time;//equation
+              Interest = Principle * Rate * Time;
 
-            Console.WriteLine("Total interest of loan:" + Interest);// intrest
+              Console.WriteLine("Total interest of loan:" + Interest);//Printing the variable Interest to display the value
+
 
         }
 
