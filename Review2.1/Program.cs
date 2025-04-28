@@ -16,19 +16,19 @@ namespace Consoledocumation
                 double Principle, Rate, Time, Interest; 
 
 
-              Console.WriteLine("What is principal amount of the loan in dollars?"); 
-              Principle = Convert.ToDouble(Console.ReadLine());//string variable for the input principle
+              Console.WriteLine("What is principal amount of the loan in dollars?"); // the priciple loans you have
+              Principle = Convert.ToDouble(Console.ReadLine());//inputing the principle amount you have for
 
-              Console.WriteLine("What is interest rate?");//string varialbe for the input rate
-              Rate = Convert.ToDouble(Console.ReadLine());
+              Console.WriteLine("What is interest rate?");//the percentage of the interest you are getting
+              Rate = Convert.ToDouble(Console.ReadLine());//input of your rate percentage but in two of the decemal places to the left
 
 
-              Console.WriteLine("Total interest of loan in years?");//string variable for the input time
-              Time = Convert.ToDouble(Console.ReadLine());
+              Console.WriteLine("Total interest of loan in years?");//the amount you re getting thur out the years
+              Time = Convert.ToDouble(Console.ReadLine());//the time of the loans you are getting in time
 
-              Interest = Principle * Rate * Time;
+              Interest = Principle * Rate * Time;// the equation fo all the three for the total
 
-              Console.WriteLine("Total interest of loan:" + Interest);//Printing the variable Interest to display the value
+              Console.WriteLine("Total interest of loan:" + Interest);//displaying the interest from the equation I but int
 
 
         }
